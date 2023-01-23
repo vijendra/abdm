@@ -1,0 +1,114 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://dev.abdm.gov.in/gateway/v0.5/sessions
+    body:
+      encoding: UTF-8
+      string: '{"clientId":"SBX_002274","clientSecret":"a11b3ec0-4188-4af8-a4fd-ac26aa4aad4c"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Correlation-Id:
+      - b4279930-4e7c-49b7-972e-39d700d70685
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2186'
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000 ; includeSubDomains
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1 ; mode=block
+      Referrer-Policy:
+      - no-referrer
+      X-Envoy-Upstream-Service-Time:
+      - '15'
+      Date:
+      - Sat, 21 Jan 2023 09:39:55 GMT
+      Set-Cookie:
+      - TS011c04bd=01445fed048f02184d9b69261aeb59952d6d561732f00cf5393be3e0459fb53263bc507661a631bafb9060b58908961a71b10054ae;
+        Path=/
+    body:
+      encoding: UTF-8
+      string: '{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE2NzQyOTQ1OTYsImlhdCI6MTY3NDI5Mzk5NiwianRpIjoiMmI3OWM4OTgtZGI2ZS00NTQzLWI2ZWQtNGQxZWRmZWQ5NjJkIiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhfMDAyMjc0Iiwic2Vzc2lvbl9zdGF0ZSI6IjVjYzViOWNkLWZhNzgtNGVjMS04ZGE3LTYyMzdkODc3MTMxMyIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDA3Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJoaXUiLCJvZmZsaW5lX2FjY2VzcyIsImhlYWx0aElkIiwiT0lEQyIsImhpcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IlNCWF8wMDIyNzQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6IlNCWF8wMDIyNzQiLCJjbGllbnRIb3N0IjoiMTAuMjMzLjY4LjE5NCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNieF8wMDIyNzQiLCJjbGllbnRBZGRyZXNzIjoiMTAuMjMzLjY4LjE5NCJ9.iMtG0ZmxsO83RyvG1Es6CByjk-qAJR-oQL6tmNB3aSJwjuwTDd3ubYRzu4-5ZQAYlJ_t3Rfz5i9Ei2K-rxg3jH0CzTxlv2eDTskDc8fnRtwkeoovJ6YElRCJVd7Qm1gdgCnzmAYrtJwI854HWOSdRyTugXP-FHRigMadz0fiOKfCOmdhXlkUWGOHj67zrisoxLrSH9KgCVn5PvUCXjydNOxkGwmz-7SlwO0vhMd7VnBAyZ3UGy7xHwrNcdmk78UAOQaHOR4MG4xGcpfnmJ_fLRS1tqOU3HQeAR7immw8el0ogOZf8aLx9PaApoIKd6NohGFCCgRXz9WBWsDn0cV8_w","expiresIn":600,"refreshExpiresIn":1800,"refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyMWU5NzA4OS00ZTcxLTQyNGEtOTAzYS1jOTAyMWM1NmFlNWYifQ.eyJleHAiOjE2NzQyOTU3OTYsImlhdCI6MTY3NDI5Mzk5NiwianRpIjoiMTViMmU1NzUtMGE4NS00OGZhLTk4YzctOTU0NDMwZDIyM2ZjIiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6Imh0dHBzOi8vZGV2Lm5kaG0uZ292LmluL2F1dGgvcmVhbG1zL2NlbnRyYWwtcmVnaXN0cnkiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoiU0JYXzAwMjI3NCIsInNlc3Npb25fc3RhdGUiOiI1Y2M1YjljZC1mYTc4LTRlYzEtOGRhNy02MjM3ZDg3NzEzMTMiLCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIn0.ZVLQna7vlxpDufXrzUCQ1PStqYbSsinNRBfJctfHGgg","tokenType":"bearer"}'
+  recorded_at: Sat, 21 Jan 2023 09:39:56 GMT
+- request:
+    method: post
+    uri: https://healthidsbx.abdm.gov.in/api/v1/registration/aadhaar/generateOtp
+    body:
+      encoding: UTF-8
+      string: '{"aadhaar":"5765005773342"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.7.2
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE2NzQyOTQ1OTYsImlhdCI6MTY3NDI5Mzk5NiwianRpIjoiMmI3OWM4OTgtZGI2ZS00NTQzLWI2ZWQtNGQxZWRmZWQ5NjJkIiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhfMDAyMjc0Iiwic2Vzc2lvbl9zdGF0ZSI6IjVjYzViOWNkLWZhNzgtNGVjMS04ZGE3LTYyMzdkODc3MTMxMyIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDA3Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJoaXUiLCJvZmZsaW5lX2FjY2VzcyIsImhlYWx0aElkIiwiT0lEQyIsImhpcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IlNCWF8wMDIyNzQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6IlNCWF8wMDIyNzQiLCJjbGllbnRIb3N0IjoiMTAuMjMzLjY4LjE5NCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNieF8wMDIyNzQiLCJjbGllbnRBZGRyZXNzIjoiMTAuMjMzLjY4LjE5NCJ9.iMtG0ZmxsO83RyvG1Es6CByjk-qAJR-oQL6tmNB3aSJwjuwTDd3ubYRzu4-5ZQAYlJ_t3Rfz5i9Ei2K-rxg3jH0CzTxlv2eDTskDc8fnRtwkeoovJ6YElRCJVd7Qm1gdgCnzmAYrtJwI854HWOSdRyTugXP-FHRigMadz0fiOKfCOmdhXlkUWGOHj67zrisoxLrSH9KgCVn5PvUCXjydNOxkGwmz-7SlwO0vhMd7VnBAyZ3UGy7xHwrNcdmk78UAOQaHOR4MG4xGcpfnmJ_fLRS1tqOU3HQeAR7immw8el0ogOZf8aLx9PaApoIKd6NohGFCCgRXz9WBWsDn0cV8_w
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: ''
+    headers:
+      Date:
+      - Sat, 21 Jan 2023 09:39:56 GMT
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Custom-Security-Header:
+      - default-src 'none'; img-src 'self'; script-src 'self' style-src 'self'
+      Content-Security-Policy:
+      - frame-src 'self' https://www.google.com; frame-ancestors 'self' https://www.google.com;
+        object-src 'none';
+      X-Webkit-Csp:
+      - default-src 'self'
+      Vary:
+      - accept-encoding
+      Content-Type:
+      - application/json;charset=UTF-8
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"code":"HIS-400","message":"Request is invalid. Please enter the correct
+        data.","details":[{"message":"Invalid pattern found","code":"HIS-1003","attribute":{"key":"aadhaar","value":"5765005773342"}},{"message":"Aadhaar
+        Number/Virtual ID is invalid.","code":"HIS-2016","attribute":{"key":"aadhaar","value":"5765005773342"}}]}'
+  recorded_at: Sat, 21 Jan 2023 09:39:56 GMT
+recorded_with: VCR 6.1.0
