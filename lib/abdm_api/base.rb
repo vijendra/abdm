@@ -3,7 +3,7 @@
 require 'faraday'
  
 module AbdmAPI
-  class Base < OpenStruct
+  class Base
      
     private
 
