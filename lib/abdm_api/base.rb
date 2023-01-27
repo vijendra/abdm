@@ -38,16 +38,15 @@ module AbdmAPI
 
         req.headers[:Authorization] = "Bearer #{access_token}"
       end
-        
-      JSON.parse(response.body)
+      
+      handle_response(response)
     end
     
-    def self.handle_response(response)
-      case response.code.to_i
- 	when 200...300 then self.construct(response.parsed_response)
-        when 401 then raise AbdmAPI::AuthenticationError, "#{response.body}: Verify your api token."
+    def handle_response(response)
+      case response.status.to_i
+ 	when 200...300 then JSON.parse(response.body)
  	else
- 	  raise AbdmAPI::UnexpectedError, response.body
+ 	  raise AbdmAPI::Error, response.body
       end
     end
  

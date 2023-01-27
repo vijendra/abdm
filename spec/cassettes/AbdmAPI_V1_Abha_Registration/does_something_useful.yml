@@ -10,7 +10,7 @@ http_interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - Faraday v1.0.1
+      - Faraday v0.8.11
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Correlation-Id:
-      - 80269d8a-fefe-4945-be4c-b5111230be6b
+      - a4ba278d-3c92-4782-975f-0b534a0abc02
       Content-Type:
       - application/json
       Content-Length:
@@ -43,41 +43,41 @@ http_interactions:
       Referrer-Policy:
       - no-referrer
       X-Envoy-Upstream-Service-Time:
-      - '15'
+      - '13'
       Date:
-      - Fri, 27 Jan 2023 06:05:37 GMT
+      - Fri, 27 Jan 2023 09:15:48 GMT
       Set-Cookie:
-      - TS011c04bd=01445fed04c989622bd58cfa40aab95059bb8ee2cd90cdae0e2dcd04cb5d3d6fa53d91dc421d43ebfeafb627c5a0d7a1fb20e70abd;
+      - TS011c04bd=01445fed04dcd812af74a93397eb02c7cf0d280efcbbcdfe94caaa718ece158d096ebf065ec14ab683a9e36592a17989254c136fd4;
         Path=/
     body:
       encoding: UTF-8
-      string: '{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE2NzQ4MDAxMzcsImlhdCI6MTY3NDc5OTUzNywianRpIjoiYTA2MDc5OGQtYTY5Ny00YmI2LWFhN2UtYWFkNDRjNmJiYzg0IiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhfMDAyMjc0Iiwic2Vzc2lvbl9zdGF0ZSI6IjY1M2I1MWQ2LWYwY2MtNGNlZi1iMGIxLWQ3MWY4NDYyNzkyMSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDA3Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJoaXUiLCJvZmZsaW5lX2FjY2VzcyIsImhlYWx0aElkIiwiT0lEQyIsImhpcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IlNCWF8wMDIyNzQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6IlNCWF8wMDIyNzQiLCJjbGllbnRIb3N0IjoiMTAuMjMzLjY4LjE5OCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNieF8wMDIyNzQiLCJjbGllbnRBZGRyZXNzIjoiMTAuMjMzLjY4LjE5OCJ9.f7ZQ5ROli__5MNNeg5M9sD7eVNUGd7AO2YmzfVHtsEGprKHfobPxlUUPCgRXO1iwWkw8LfAKUkRMnqtHIRBCeSDNjdrM7gCwPqvZo9XISQrsGEPrYr8xRIvGVKIQffTTUXVzjIvTCYwovxq3y5BDwaq0c6PPlRwEcRoN3fe0LgD94WQNhx0Dd5fKZ8OEiS2RlCdqzL5eB2RSwW_CUQRO-x5uHt1RGuSwJrIritXXLoDYsspQBIuo8WdWlq8JEheCfM43kZCDrZrue2wakVC9yLH2dU6IuQxP4XHldhmd4g0jqid6Lm54vqvZUJUQjJKbx6UP9n28VCAHC8cyoYUa-Q","expiresIn":600,"refreshExpiresIn":1800,"refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyMWU5NzA4OS00ZTcxLTQyNGEtOTAzYS1jOTAyMWM1NmFlNWYifQ.eyJleHAiOjE2NzQ4MDEzMzcsImlhdCI6MTY3NDc5OTUzNywianRpIjoiNjgxOTE2YTAtZDgxNy00YzE2LTg2YjItMzdhMDcyODlkNmNkIiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6Imh0dHBzOi8vZGV2Lm5kaG0uZ292LmluL2F1dGgvcmVhbG1zL2NlbnRyYWwtcmVnaXN0cnkiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoiU0JYXzAwMjI3NCIsInNlc3Npb25fc3RhdGUiOiI2NTNiNTFkNi1mMGNjLTRjZWYtYjBiMS1kNzFmODQ2Mjc5MjEiLCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIn0.lhVooZOhO6N4ik5msuwbQ0O71R-AkcdgJwicY26Ktog","tokenType":"bearer"}'
-    http_version: 
-  recorded_at: Fri, 27 Jan 2023 06:05:37 GMT
+      string: '{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE2NzQ4MTE1NDgsImlhdCI6MTY3NDgxMDk0OCwianRpIjoiYmJhMDYzYjMtODllYi00ZjYyLWE1ODQtNzBmNDBlYzFhYjg0IiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhfMDAyMjc0Iiwic2Vzc2lvbl9zdGF0ZSI6ImJmZDViOWQ1LWIxY2ItNDA5MS1iNzFhLWE0ZmE3OTgwZTEyMSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDA3Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJoaXUiLCJvZmZsaW5lX2FjY2VzcyIsImhlYWx0aElkIiwiT0lEQyIsImhpcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IlNCWF8wMDIyNzQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6IlNCWF8wMDIyNzQiLCJjbGllbnRIb3N0IjoiMTAuMjMzLjY5LjE3NyIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNieF8wMDIyNzQiLCJjbGllbnRBZGRyZXNzIjoiMTAuMjMzLjY5LjE3NyJ9.kW3DwpmkOyja3kE2gIELgy7PW7kkgs8cXUfDKHg7lzG4vsZwJc9JOMhiy4q7eCM5GSUyIEB6brQYJTX3KWjuSJIczJrFOKxfdmBYXFcDdAJ9T-OOONsBfTYUJn8b58Mr_qnN7iimkOvbOjCiNN6lFsJzivEAXdQG6Wv12sN-8sPzm2Ow-g6Zsnr1gshRhn5yF3jE57NoNHAgnu3SgHC4qNKhv7Pk_Y88ivDWYbSCs-bQ3I3o53UVkbaHG6SQZ1rroCY_6vX6kFVc78gI5-wVwEkqfH8LwWCNf9VtHhQu6dFCUJbDSOsxRygz-pzZpkBTEv-9ovv9bS5Nx3Uzzdm_OQ","expiresIn":600,"refreshExpiresIn":1800,"refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyMWU5NzA4OS00ZTcxLTQyNGEtOTAzYS1jOTAyMWM1NmFlNWYifQ.eyJleHAiOjE2NzQ4MTI3NDgsImlhdCI6MTY3NDgxMDk0OCwianRpIjoiNmE3ZGRjM2EtMjg3Ni00Y2MwLWEzM2ItOGFmYzY4MTY2ODg4IiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6Imh0dHBzOi8vZGV2Lm5kaG0uZ292LmluL2F1dGgvcmVhbG1zL2NlbnRyYWwtcmVnaXN0cnkiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoiU0JYXzAwMjI3NCIsInNlc3Npb25fc3RhdGUiOiJiZmQ1YjlkNS1iMWNiLTQwOTEtYjcxYS1hNGZhNzk4MGUxMjEiLCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIn0.go7J_hgkTrOElf53NEY3Fej-1Bmp1S_LLoxbtymM-rc","tokenType":"bearer"}'
+    http_version: null
+  recorded_at: Fri, 27 Jan 2023 09:15:49 GMT
 - request:
     method: post
     uri: https://healthidsbx.abdm.gov.in/api/v1/registration/aadhaar/generateOtp
     body:
       encoding: UTF-8
-      string: '{"aadhaar":"576500577334"}'
+      string: '{"aadhaar":"5765005773341"}'
     headers:
       Content-Type:
       - application/json
       User-Agent:
-      - Faraday v1.0.1
+      - Faraday v0.8.11
       Authorization:
-      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE2NzQ4MDAxMzcsImlhdCI6MTY3NDc5OTUzNywianRpIjoiYTA2MDc5OGQtYTY5Ny00YmI2LWFhN2UtYWFkNDRjNmJiYzg0IiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhfMDAyMjc0Iiwic2Vzc2lvbl9zdGF0ZSI6IjY1M2I1MWQ2LWYwY2MtNGNlZi1iMGIxLWQ3MWY4NDYyNzkyMSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDA3Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJoaXUiLCJvZmZsaW5lX2FjY2VzcyIsImhlYWx0aElkIiwiT0lEQyIsImhpcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IlNCWF8wMDIyNzQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6IlNCWF8wMDIyNzQiLCJjbGllbnRIb3N0IjoiMTAuMjMzLjY4LjE5OCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNieF8wMDIyNzQiLCJjbGllbnRBZGRyZXNzIjoiMTAuMjMzLjY4LjE5OCJ9.f7ZQ5ROli__5MNNeg5M9sD7eVNUGd7AO2YmzfVHtsEGprKHfobPxlUUPCgRXO1iwWkw8LfAKUkRMnqtHIRBCeSDNjdrM7gCwPqvZo9XISQrsGEPrYr8xRIvGVKIQffTTUXVzjIvTCYwovxq3y5BDwaq0c6PPlRwEcRoN3fe0LgD94WQNhx0Dd5fKZ8OEiS2RlCdqzL5eB2RSwW_CUQRO-x5uHt1RGuSwJrIritXXLoDYsspQBIuo8WdWlq8JEheCfM43kZCDrZrue2wakVC9yLH2dU6IuQxP4XHldhmd4g0jqid6Lm54vqvZUJUQjJKbx6UP9n28VCAHC8cyoYUa-Q
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE2NzQ4MTE1NDgsImlhdCI6MTY3NDgxMDk0OCwianRpIjoiYmJhMDYzYjMtODllYi00ZjYyLWE1ODQtNzBmNDBlYzFhYjg0IiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhfMDAyMjc0Iiwic2Vzc2lvbl9zdGF0ZSI6ImJmZDViOWQ1LWIxY2ItNDA5MS1iNzFhLWE0ZmE3OTgwZTEyMSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDA3Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJoaXUiLCJvZmZsaW5lX2FjY2VzcyIsImhlYWx0aElkIiwiT0lEQyIsImhpcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IlNCWF8wMDIyNzQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6IlNCWF8wMDIyNzQiLCJjbGllbnRIb3N0IjoiMTAuMjMzLjY5LjE3NyIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNieF8wMDIyNzQiLCJjbGllbnRBZGRyZXNzIjoiMTAuMjMzLjY5LjE3NyJ9.kW3DwpmkOyja3kE2gIELgy7PW7kkgs8cXUfDKHg7lzG4vsZwJc9JOMhiy4q7eCM5GSUyIEB6brQYJTX3KWjuSJIczJrFOKxfdmBYXFcDdAJ9T-OOONsBfTYUJn8b58Mr_qnN7iimkOvbOjCiNN6lFsJzivEAXdQG6Wv12sN-8sPzm2Ow-g6Zsnr1gshRhn5yF3jE57NoNHAgnu3SgHC4qNKhv7Pk_Y88ivDWYbSCs-bQ3I3o53UVkbaHG6SQZ1rroCY_6vX6kFVc78gI5-wVwEkqfH8LwWCNf9VtHhQu6dFCUJbDSOsxRygz-pzZpkBTEv-9ovv9bS5Nx3Uzzdm_OQ
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - "*/*"
   response:
     status:
-      code: 200
+      code: 400
       message: ''
     headers:
       Date:
-      - Fri, 27 Jan 2023 06:05:38 GMT
+      - Fri, 27 Jan 2023 09:15:52 GMT
       X-Content-Type-Options:
       - nosniff
       X-Xss-Protection:
@@ -102,11 +102,15 @@ http_interactions:
       - accept-encoding
       Content-Type:
       - application/json;charset=UTF-8
+      Connection:
+      - close
       Transfer-Encoding:
       - chunked
     body:
-      encoding: ASCII-8BIT
-      string: '{"txnId":"b6c3bfbc-fc04-40aa-97d1-233d9109d47a"}'
-    http_version: 
-  recorded_at: Fri, 27 Jan 2023 06:05:38 GMT
-recorded_with: VCR 4.0.0
+      encoding: UTF-8
+      string: '{"code":"HIS-400","message":"Request is invalid. Please enter the correct
+        data.","details":[{"message":"Aadhaar Number/Virtual ID is invalid.","code":"HIS-2016","attribute":{"key":"aadhaar","value":"5765005773341"}},{"message":"Invalid
+        pattern found","code":"HIS-1003","attribute":{"key":"aadhaar","value":"5765005773341"}}]}'
+    http_version: null
+  recorded_at: Fri, 27 Jan 2023 09:15:53 GMT
+recorded_with: VCR 5.1.0
