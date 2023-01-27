@@ -15,9 +15,9 @@ module AbdmAPI
     yield(configuration) if block_given?
     
     api_version = 'v1' if api_version.nil? || api_version.empty?
-    raise AbdmAPI::Error.new(':client_id cannot be blank') if configuration.client_id.nil? || configuration.client_id.empty?
-    raise AbdmAPI::Error.new(':client_secret cannot be blank') if configuration.client_secret.nil? || configuration.client_secret.empty?
-    raise AbdmAPI::Error.new(':api_base_url cannot be blank') if configuration.api_base_url.nil? || configuration.api_base_url.empty?
+    raise AbdmAPI::Error.new('client_id cannot be blank') if configuration.client_id.nil? || configuration.client_id.empty?
+    raise AbdmAPI::Error.new('client_secret cannot be blank') if configuration.client_secret.nil? || configuration.client_secret.empty?
+    raise AbdmAPI::Error.new('api_base_url cannot be blank') if configuration.api_base_url.nil? || configuration.api_base_url.empty?
   end
 
   class Configuration

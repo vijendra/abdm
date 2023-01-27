@@ -8,18 +8,12 @@ module AbdmAPI::V1
       end
   
       def generate_aadhaar_otp(adhar)
-        response = @conn.post('/v1/registration/aadhaar/generateOtp') do |req|
-          req.body = {aadhaar: adhar}.to_json
-          access_token = fetch_access_token
-   
-          req.headers[:Authorization] = "Bearer #{access_token}"
-        end
-        
-        JSON.parse(response.body)
+        payload = {aadhaar: adhar}.to_json
+        post_request(@conn, '/api/v1/registration/aadhaar/generateOtp', payload)
       end
  
       def resend_aadhaar_otp(txn_id)
-        response = @conn.post('/v1/registration/aadhaar/resendAadhaarOtp') do |req|
+        response = @conn.post('/api/v1/registration/aadhaar/resendAadhaarOtp') do |req|
           req.body = {txnId: txn_id}.to_json
           access_token = fetch_access_token
    
@@ -30,7 +24,7 @@ module AbdmAPI::V1
       end
             
       def verify_aadhaar_otp(otp, txn_id)
-        response = @conn.post('/v1/registration/aadhaar/verifyOTP') do |req|
+        response = @conn.post('/api/v1/registration/aadhaar/verifyOTP') do |req|
           req.body = {otp: otp, txnId: txn_id}.to_json
           access_token = fetch_access_token
    

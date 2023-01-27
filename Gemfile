@@ -5,9 +5,5 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in abdm.gemspec
 gemspec
 
-gem "rake", "~> 13.0"
-
-gem "rspec", "~> 3.2"
-
-gem "rubocop", "~> 1.21"
-gem 'faraday'
+gem "rake", "~> 12.3.3"
+gem "rubocop", "~> 0.57.2"

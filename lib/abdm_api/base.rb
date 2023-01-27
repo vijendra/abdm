@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
 require 'faraday'
+require 'ostruct'
  
 module AbdmAPI
-  class Base
+  class Base < OpenStruct
      
     private
 
@@ -29,6 +30,17 @@ module AbdmAPI
       JSON.parse(response.body)["accessToken"]
     end
  
+    def post_request(conn, url, payload)
+      response = conn.post(url) do |req|
+        req.body = payload
+        access_token = fetch_access_token
+   
+        req.headers[:Authorization] = "Bearer #{access_token}"
+      end
+        
+      JSON.parse(response.body)
+    end
+    
     def self.handle_response(response)
       case response.code.to_i
  	when 200...300 then self.construct(response.parsed_response)

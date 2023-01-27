@@ -15,7 +15,7 @@ RSpec.configure do |config|
   end
   
   AbdmAPI.configure do |config|
-    config.api_base_url = 'https://healthidsbx.abdm.gov.in/api'
+    config.api_base_url = 'https://healthidsbx.abdm.gov.in'
     config.client_id = "SBX_002274"
     config.client_secret = "a11b3ec0-4188-4af8-a4fd-ac26aa4aad4c"
   end
