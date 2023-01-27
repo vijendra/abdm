@@ -32,7 +32,7 @@ module AbdmAPI
  
     def post_request(conn, url, payload)
       response = conn.post(url) do |req|
-        req.body = payload
+        req.body = payload.to_json
         access_token = fetch_access_token
    
         req.headers[:Authorization] = "Bearer #{access_token}"
