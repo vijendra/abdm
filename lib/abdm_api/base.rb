@@ -43,11 +43,7 @@ module AbdmAPI
     end
     
     def handle_response(response)
-      case response.status.to_i
- 	when 200...300 then JSON.parse(response.body)
- 	else
- 	  raise AbdmAPI::Error, response.body
-      end
+      { "code" => response.status, "body" => JSON.parse(response.body) } 
     end
  
   end
