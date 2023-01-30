@@ -37,7 +37,7 @@ module AbdmAPI::V1
         post_request(@conn, '/api/v1/registration/aadhaar/verifyBio', payload)
       end
       
-      def create_health_id_with_pre_verified(email, first_name, health_id, lastName, middleName, password, profilePhoto, txn_id)
+      def create_health_id_with_pre_verified(email, first_name, health_id, last_name, middle_name, password, profile_photo, txn_id)
         payload = {email: email, firstName: first_name, healthId: health_id, lastName: last_name, middleName: middle_name, password: password, profilePhoto: profile_photo, txnId: txn_id}
         post_request(@conn, '/api/v1/registration/aadhaar/createHealthIdWithPreVerified', payload)
       end
