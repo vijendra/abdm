@@ -26,7 +26,7 @@ module AbdmAPI
       response = session_conn.post('/gateway/v0.5/sessions') do |req|
          req.body = {clientId: AbdmAPI.configuration.client_id, clientSecret: AbdmAPI.configuration.client_secret}.to_json
       end
-      puts response.body  
+
       JSON.parse(response.body)["accessToken"]
     end
  
@@ -38,7 +38,7 @@ module AbdmAPI
 
         req.headers[:Authorization] = "Bearer #{access_token}"
       end
-      
+
       handle_response(response)
     end
     

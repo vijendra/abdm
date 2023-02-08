@@ -1,0 +1,112 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://dev.abdm.gov.in/gateway/v0.5/sessions
+    body:
+      encoding: UTF-8
+      string: '{"clientId":"SBX_002274","clientSecret":"a11b3ec0-4188-4af8-a4fd-ac26aa4aad4c"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Correlation-Id:
+      - '07890623-f2e8-48b9-8235-e44897d44c74'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2186'
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000 ; includeSubDomains
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1 ; mode=block
+      Referrer-Policy:
+      - no-referrer
+      X-Envoy-Upstream-Service-Time:
+      - '14'
+      Date:
+      - Wed, 08 Feb 2023 07:51:00 GMT
+      Set-Cookie:
+      - TS011c04bd=01445fed04c690025bf59c73e13bec2f76d93d2667246d70cd7f75f8dc8eeacfb590c570f650854ad6df2ba1a2ba5537eefebd127e;
+        Path=/
+    body:
+      encoding: UTF-8
+      string: '{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE2NzU4NDMyNjAsImlhdCI6MTY3NTg0MjY2MCwianRpIjoiNDM4MDU3NDAtYWNjMS00ZmQ1LTg4YmQtYzNhYjQ2NDI5ODk1IiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhfMDAyMjc0Iiwic2Vzc2lvbl9zdGF0ZSI6IjkxMGUzYzE4LWRjMjQtNGI1Ny04MjI0LTVhNzYzODcxMTFjYiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDA3Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJoaXUiLCJvZmZsaW5lX2FjY2VzcyIsImhlYWx0aElkIiwiT0lEQyIsImhpcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IlNCWF8wMDIyNzQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6IlNCWF8wMDIyNzQiLCJjbGllbnRIb3N0IjoiMTAuMjMzLjY4LjExNyIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNieF8wMDIyNzQiLCJjbGllbnRBZGRyZXNzIjoiMTAuMjMzLjY4LjExNyJ9.fZA4AEkOJRyg413qoDhdNSBQSHE_AYdbi2NGndHDvnM6O2lrXlYvw4EXyEiM8v-6IFph10pK_EnR8FmYmWVRXwlAboXM9QB4Jqj8ggE8TtBDBGVEWcZztaVVNoYD586kmXjCElvvG_gP3N5oMhw8CMTKEVKgddWzbIF26rOW21-Zo_FTZCdo1tXNyibEGOAY76aXj8QwwPnC3bhFffux4MNshzx7lYu6yERfOr6b6lgP6hQhcI_CbaGiOM4cNapsK6Hwd1n1RRg1RN4Up9ChPdhzBKbLxlNPGA4F0TdH34ALaE-2hKyv69ts-C13r8X3lSpqJ7D6M5TuU-1-d9diwQ","expiresIn":600,"refreshExpiresIn":1800,"refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyMWU5NzA4OS00ZTcxLTQyNGEtOTAzYS1jOTAyMWM1NmFlNWYifQ.eyJleHAiOjE2NzU4NDQ0NjAsImlhdCI6MTY3NTg0MjY2MCwianRpIjoiZWY4YmJkMDUtMGZiMi00M2Q4LTljMDctOTdiM2RhZDk4ZGMxIiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6Imh0dHBzOi8vZGV2Lm5kaG0uZ292LmluL2F1dGgvcmVhbG1zL2NlbnRyYWwtcmVnaXN0cnkiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoiU0JYXzAwMjI3NCIsInNlc3Npb25fc3RhdGUiOiI5MTBlM2MxOC1kYzI0LTRiNTctODIyNC01YTc2Mzg3MTExY2IiLCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIn0.1oydvkXmr5Mbu08xXoz-Q3Q9G0tNBiYGzcyHWoa68us","tokenType":"bearer"}'
+  recorded_at: Wed, 08 Feb 2023 07:51:00 GMT
+- request:
+    method: post
+    uri: https://healthidsbx.abdm.gov.in/api/v1/auth/init
+    body:
+      encoding: UTF-8
+      string: '{"authMethod":"AADHAAR_OTP","healthid":"91-4000-5003-55361"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.7.2
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE2NzU4NDMyNjAsImlhdCI6MTY3NTg0MjY2MCwianRpIjoiNDM4MDU3NDAtYWNjMS00ZmQ1LTg4YmQtYzNhYjQ2NDI5ODk1IiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhfMDAyMjc0Iiwic2Vzc2lvbl9zdGF0ZSI6IjkxMGUzYzE4LWRjMjQtNGI1Ny04MjI0LTVhNzYzODcxMTFjYiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDA3Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJoaXUiLCJvZmZsaW5lX2FjY2VzcyIsImhlYWx0aElkIiwiT0lEQyIsImhpcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IlNCWF8wMDIyNzQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6IlNCWF8wMDIyNzQiLCJjbGllbnRIb3N0IjoiMTAuMjMzLjY4LjExNyIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXNieF8wMDIyNzQiLCJjbGllbnRBZGRyZXNzIjoiMTAuMjMzLjY4LjExNyJ9.fZA4AEkOJRyg413qoDhdNSBQSHE_AYdbi2NGndHDvnM6O2lrXlYvw4EXyEiM8v-6IFph10pK_EnR8FmYmWVRXwlAboXM9QB4Jqj8ggE8TtBDBGVEWcZztaVVNoYD586kmXjCElvvG_gP3N5oMhw8CMTKEVKgddWzbIF26rOW21-Zo_FTZCdo1tXNyibEGOAY76aXj8QwwPnC3bhFffux4MNshzx7lYu6yERfOr6b6lgP6hQhcI_CbaGiOM4cNapsK6Hwd1n1RRg1RN4Up9ChPdhzBKbLxlNPGA4F0TdH34ALaE-2hKyv69ts-C13r8X3lSpqJ7D6M5TuU-1-d9diwQ
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 422
+      message: ''
+    headers:
+      Date:
+      - Wed, 08 Feb 2023 07:51:04 GMT
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Custom-Security-Header:
+      - default-src 'none'; img-src 'self'; script-src 'self' style-src 'self'
+      Content-Security-Policy:
+      - frame-src 'self' https://www.google.com; frame-ancestors 'self' https://www.google.com;
+        object-src 'none';
+      X-Webkit-Csp:
+      - default-src 'self'
+      Vary:
+      - accept-encoding
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"code":"HIS-422","message":"Unable to process the current request
+        due to incorrect data entered.","details":[{"message":"Invalid credentials.
+        ","code":"HIS-1008","attribute":null}]}'
+  recorded_at: Wed, 08 Feb 2023 07:51:04 GMT
+recorded_with: VCR 6.1.0

@@ -1,6 +1,8 @@
 require "abdm_api/version"
 require "abdm_api/base"
 require "abdm_api/v1/abha/registration"
+require "abdm_api/v1/abha/authentication"
+require "abdm_api/v1/abha/search"
 
 module AbdmAPI
   class << self

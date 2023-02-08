@@ -1,5 +1,3 @@
-require 'faraday'
-
 module AbdmAPI::V1
   module Abha
     class Registration < AbdmAPI::Base

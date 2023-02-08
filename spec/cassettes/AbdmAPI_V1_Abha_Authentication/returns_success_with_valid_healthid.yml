@@ -1,0 +1,110 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://dev.abdm.gov.in/gateway/v0.5/sessions
+    body:
+      encoding: UTF-8
+      string: '{"clientId":"SBX_002274","clientSecret":"a11b3ec0-4188-4af8-a4fd-ac26aa4aad4c"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.7.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Correlation-Id:
+      - 4682082b-ded4-43c0-ad5f-1689a9280813
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2184'
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000 ; includeSubDomains
+      X-Frame-Options:
+      - DENY
+      X-Xss-Protection:
+      - 1 ; mode=block
+      Referrer-Policy:
+      - no-referrer
+      X-Envoy-Upstream-Service-Time:
+      - '15'
+      Date:
+      - Wed, 08 Feb 2023 07:50:00 GMT
+      Set-Cookie:
+      - TS011c04bd=01445fed048b0741433d43d960017a43bdc370aad594c28779d6a1e298f07e6b8cf5cd02b2bfd43a0fcd7ea56a52fac6cae3a3b12a;
+        Path=/
+    body:
+      encoding: UTF-8
+      string: '{"accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE2NzU4NDMyMDAsImlhdCI6MTY3NTg0MjYwMCwianRpIjoiMTcyMDdmYTctZWJlYy00OWIxLWIzOTAtNDkwMTk2YjRmZmMxIiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhfMDAyMjc0Iiwic2Vzc2lvbl9zdGF0ZSI6IjBmNjhmNzRkLWMyNGEtNGNhZC1iZGMxLTNkMjljZWMyNDEwNyIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDA3Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJoaXUiLCJvZmZsaW5lX2FjY2VzcyIsImhlYWx0aElkIiwiT0lEQyIsImhpcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IlNCWF8wMDIyNzQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6IlNCWF8wMDIyNzQiLCJjbGllbnRIb3N0IjoiMTAuMjMzLjY3LjY1IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtc2J4XzAwMjI3NCIsImNsaWVudEFkZHJlc3MiOiIxMC4yMzMuNjcuNjUifQ.NthQ8YxhKTCQDMa1DbWFwii4SYjUFjeM1cfkBVh2B4Qiw6goByuwCSIZaxW1VF2LcDC57SE32NWwyxOj3wR6W4D2xtScpPVO07ZeZYjCoEvqP2oDuIb5ieQ7COPF92T1-Cqnj18QjTIeM7orZInm2fEk8egVQcAm9gqwzFY7cmjllrudj6fZLpv046IobRPrGcXFh6G0oC83h8Fidznxb8Pshsymch7vEwX7mp8vBHoooCU116g-fbJx3ij85fLioHAN1d3auGdH3hF-3dHChR7zkDOeXf3nBDqspy8JapYCRfI4un2aXuk1mIrpXUf7QieeBQpZB68KvQ-O6YUNEA","expiresIn":600,"refreshExpiresIn":1800,"refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyMWU5NzA4OS00ZTcxLTQyNGEtOTAzYS1jOTAyMWM1NmFlNWYifQ.eyJleHAiOjE2NzU4NDQ0MDAsImlhdCI6MTY3NTg0MjYwMCwianRpIjoiZGI4M2VlYTgtMDNjOC00NTMxLThmZDQtMGYzMzZiODQ4ZDgzIiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6Imh0dHBzOi8vZGV2Lm5kaG0uZ292LmluL2F1dGgvcmVhbG1zL2NlbnRyYWwtcmVnaXN0cnkiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoiU0JYXzAwMjI3NCIsInNlc3Npb25fc3RhdGUiOiIwZjY4Zjc0ZC1jMjRhLTRjYWQtYmRjMS0zZDI5Y2VjMjQxMDciLCJzY29wZSI6Im9wZW5pZCBlbWFpbCBwcm9maWxlIn0.tSQf8we2BiiSj2c-wqDzJPEBqOCaMmteSf8hKczPeWo","tokenType":"bearer"}'
+  recorded_at: Wed, 08 Feb 2023 07:50:00 GMT
+- request:
+    method: post
+    uri: https://healthidsbx.abdm.gov.in/api/v1/auth/init
+    body:
+      encoding: UTF-8
+      string: '{"authMethod":"AADHAAR_OTP","healthid":"91-4000-5003-5536"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.7.2
+      Authorization:
+      - Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJBbFJiNVdDbThUbTlFSl9JZk85ejA2ajlvQ3Y1MXBLS0ZrbkdiX1RCdkswIn0.eyJleHAiOjE2NzU4NDMyMDAsImlhdCI6MTY3NTg0MjYwMCwianRpIjoiMTcyMDdmYTctZWJlYy00OWIxLWIzOTAtNDkwMTk2YjRmZmMxIiwiaXNzIjoiaHR0cHM6Ly9kZXYubmRobS5nb3YuaW4vYXV0aC9yZWFsbXMvY2VudHJhbC1yZWdpc3RyeSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0YzI5YjlhZC0zY2RjLTQzN2MtOTJiNy02NWFiMmQ1ZTc0YWEiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJTQlhfMDAyMjc0Iiwic2Vzc2lvbl9zdGF0ZSI6IjBmNjhmNzRkLWMyNGEtNGNhZC1iZGMxLTNkMjljZWMyNDEwNyIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cDovL2xvY2FsaG9zdDo5MDA3Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJoaXUiLCJvZmZsaW5lX2FjY2VzcyIsImhlYWx0aElkIiwiT0lEQyIsImhpcCJdfSwicmVzb3VyY2VfYWNjZXNzIjp7IlNCWF8wMDIyNzQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUiLCJjbGllbnRJZCI6IlNCWF8wMDIyNzQiLCJjbGllbnRIb3N0IjoiMTAuMjMzLjY3LjY1IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtc2J4XzAwMjI3NCIsImNsaWVudEFkZHJlc3MiOiIxMC4yMzMuNjcuNjUifQ.NthQ8YxhKTCQDMa1DbWFwii4SYjUFjeM1cfkBVh2B4Qiw6goByuwCSIZaxW1VF2LcDC57SE32NWwyxOj3wR6W4D2xtScpPVO07ZeZYjCoEvqP2oDuIb5ieQ7COPF92T1-Cqnj18QjTIeM7orZInm2fEk8egVQcAm9gqwzFY7cmjllrudj6fZLpv046IobRPrGcXFh6G0oC83h8Fidznxb8Pshsymch7vEwX7mp8vBHoooCU116g-fbJx3ij85fLioHAN1d3auGdH3hF-3dHChR7zkDOeXf3nBDqspy8JapYCRfI4un2aXuk1mIrpXUf7QieeBQpZB68KvQ-O6YUNEA
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Wed, 08 Feb 2023 07:50:00 GMT
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Custom-Security-Header:
+      - default-src 'none'; img-src 'self'; script-src 'self' style-src 'self'
+      Content-Security-Policy:
+      - frame-src 'self' https://www.google.com; frame-ancestors 'self' https://www.google.com;
+        object-src 'none';
+      X-Webkit-Csp:
+      - default-src 'self'
+      Vary:
+      - accept-encoding
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"txnId":"a798efbc-2759-4c0d-bd3a-4c2b28c31a6d"}'
+  recorded_at: Wed, 08 Feb 2023 07:50:01 GMT
+recorded_with: VCR 6.1.0
