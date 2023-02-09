@@ -21,7 +21,7 @@ module AbdmAPI::V1
       end
       
       def confirm_with_demographic_data(gender, name, txn_id, year_of_birth)
-        payload = {gender: gender, name, name, txnId: txn_id, yearOfBirth: year_of_birth}
+        payload = {gender: gender, name: name, txnId: txn_id, yearOfBirth: year_of_birth}
         post_request(@conn, '/api/v1/auth/confirmWithDemographics', payload)
       end
     end
