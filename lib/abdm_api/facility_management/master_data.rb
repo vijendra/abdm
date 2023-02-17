@@ -26,5 +26,10 @@ module AbdmAPI::V1::FacilityManagement
       handle_response(response)
     end
 
+    def subdistricts(district_code)
+      response = Faraday.get("#{get_short_url}/lgd/subdistricts?districtCode=#{district_code}")
+      handle_response(response)
+    end
+
   end
 end
