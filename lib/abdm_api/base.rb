@@ -11,7 +11,11 @@ module AbdmAPI
     def connection
       faraday_connection(AbdmAPI.configuration.api_base_url)
     end
-    
+
+    def health_facility_connection
+      faraday_connection(AbdmAPI.configuration.facility_base_url)
+    end
+
     def faraday_connection(url)
       Faraday.new(
           url: url,

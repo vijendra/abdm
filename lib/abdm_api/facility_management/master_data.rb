@@ -6,5 +6,10 @@ module AbdmAPI::FacilityManagement
       JSON.parse(response.body)
     end
 
+    def get_owner_subtype(ownership_code, owner_subtype_code)
+      payload = { ownershipCode: ownership_code, ownerSubtypeCode: owner_subtype_code }
+      post_request(health_facility_connection, '/FacilityManagement/v1.5/facility/get-owner-subtype', payload)
+    end
+
   end
 end
