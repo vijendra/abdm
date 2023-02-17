@@ -3,6 +3,7 @@ require "abdm_api/base"
 require "abdm_api/v1/abha/registration"
 require "abdm_api/v1/abha/authentication"
 require "abdm_api/v1/abha/search"
+require "abdm_api/facility_management/master_data"
 
 module AbdmAPI
   class << self
