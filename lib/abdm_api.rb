@@ -4,6 +4,7 @@ require "abdm_api/v1/abha/registration"
 require "abdm_api/v1/abha/authentication"
 require "abdm_api/v1/abha/search"
 require "abdm_api/facility_management/master_data"
+require "abdm_api/healthcare_professional/registration"
 
 module AbdmAPI
   class << self
