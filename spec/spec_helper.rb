@@ -19,6 +19,7 @@ RSpec.configure do |config|
     config.client_id = "SBX_002274"
     config.client_secret = "a11b3ec0-4188-4af8-a4fd-ac26aa4aad4c"
     config.facility_base_url = 'https://facilitysbx.abdm.gov.in'
+    config.healthcare_professional_base_url = 'https://hpridsbx.abdm.gov.in'
   end
   
   VCR.configure do |c|

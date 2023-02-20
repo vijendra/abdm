@@ -16,6 +16,10 @@ module AbdmAPI
       faraday_connection(AbdmAPI.configuration.facility_base_url)
     end
 
+    def healthcare_professional_connection
+      faraday_connection(AbdmAPI.configuration.healthcare_professional_base_url)
+    end
+
     def faraday_connection(url)
       Faraday.new(
           url: url,
